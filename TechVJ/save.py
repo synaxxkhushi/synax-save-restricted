@@ -66,13 +66,13 @@ def progress(current, total, message, type):
 @Client.on_message(filters.command(["start"]))
 async def send_start(client: Client, message: Message):
     buttons = [[
-        InlineKeyboardButton("❣️ Developer", url = "https://t.me/kingvj01")
+        InlineKeyboardButton("𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 🐰", url = "https://t.me/verifiedsarthak")
     ],[
-        InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/vj_bot_disscussion'),
-        InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/vj_botz')
+        InlineKeyboardButton('𝐒𝐮𝐩𝐩𝐨𝐫𝐭 🦋', url='https://t.me/synaxchatgroup'),
+        InlineKeyboardButton('𝐔𝐩𝐝𝐚𝐭𝐞 🦋', url='https://t.me/synaxnetwork')
 	]]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await client.send_message(message.chat.id, f"<b>👋 Hi {message.from_user.mention}, I am Save Restricted Content Bot, I can send you restricted content by its post link.\n\nFor downloading restricted content /login first.\n\nKnow how to use bot by - /help</b>", reply_markup=reply_markup, reply_to_message_id=message.id)
+    await client.send_message(message.chat.id, f"<b>👋 ʜɪ {message.from_user.mention}, ɪ ᴀᴍ sᴀᴠᴇ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ʙᴏᴛ, ɪ ᴄᴀɴ sᴇɴᴅ ʏᴏᴜ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ ʙʏ ɪᴛs ᴘᴏsᴛ ʟɪɴᴋ.\n\nғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄᴏɴᴛᴇɴᴛ /login ғɪʀsᴛ.\n\nʜᴏᴡ ᴛᴏ ᴜsᴇ ʙᴏᴛ - /help</b>", reply_markup=reply_markup, reply_to_message_id=message.id)
     return
 
 
